@@ -1,0 +1,130 @@
+*
+{
+	font-size: 1.01em;
+
+}
+body
+{
+	background-color: black;
+}
+#container
+{
+	
+	min-height: 50px;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	border: 3px rgb(255, 187, 51) solid;
+	border-radius: 5px 5px 5px 5px;
+	background-color: rgba(255, 187, 51, 1.0);
+}
+.PRG
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px darkgray;
+	flex: 0.65;
+
+}
+.element
+{
+	font-weight: bold;
+	min-width: 30px;
+}
+a
+{
+	font-size: 1.05em;
+	color: black;
+	text-decoration: none;
+}
+a:hover
+{
+	color: darkgray;
+}
+img.banner
+{
+	min-height: 100%;
+	min-width: 100%;
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+h1
+{
+	
+	font-size: 3em;
+	color: darkgray;
+	text-align: center;
+	margin-top: 50px;
+}
+p
+{
+	color: darkgray;
+	text-align: center;
+}
+.art
+{
+	height: auto;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+img.art
+{
+	min-height: 50%;
+	min-width: 50%;
+	width: auto;
+	height: auto;
+	margin-top: 0px;
+}
+h2
+{
+	text-align: center;
+	font-size: 2em;
+	background-color: rgba(255, 187, 51, 0.75);
+}
+.mom
+{
+	width: 570px;
+	border: 2px rgba(255, 187, 51, 0.75) solid;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+}
+.kids
+{
+	margin-top: 50px;
+	width: 570px;
+	border: 2px rgba(255, 187, 51, 0.75) solid;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+}
+.me
+{
+	margin-top: 50px;
+	width: 570px;
+	border: 2px rgba(255, 187, 51, 0.75) solid;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+}
+.legend
+{
+	text-align: justify;
+}
+footer
+{	
+	width: 100%;
+	position: fixed;
+	bottom : 0;
+	display: flex;
+	justify-content: space-around;
+	border: 3px rgba(255, 187, 51, 1) solid;
+	border-radius: 5px 5px 5px 5px;
+	background-color: rgba(255, 187, 51, 1);
+}
+.foot
+{
+	min-height: 50px;
+}
